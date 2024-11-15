@@ -1,0 +1,17 @@
+
+
+
+.BillContainer{
+    padding: 20px;
+}
+
+.BillHeading{
+    text-align: center;
+    color: #ffffff;
+}
+
+.Bill{
+    background-color: black;
+    padding: 8px;
+    border-radius: 8px;
+}

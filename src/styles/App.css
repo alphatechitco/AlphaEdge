@@ -1,0 +1,150 @@
+/* Reset some default body styling */
+body {
+    margin: 0;
+    background-color: #168ced;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+/* Main container styling */
+.app-container {
+    padding: 30px;
+    max-width: 1400px;
+    margin: auto;
+    background: linear-gradient(135deg, #3988e8 0%, #25253d 100%);
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.store-type-selector{
+    text-align: center;
+    padding: 8px;
+}
+/* App title styling */
+
+
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+.app-title {
+    text-align: center;
+    font-size: 2.5em; /* Slightly larger for a more impactful look */
+    color: #ffff; /* Warm accent color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* 3D text effect */
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.app-logo{
+    width: 130px;
+    height: auto;
+    margin-top: 25px;
+    margin-right: 1px;
+}
+
+/* Layout styling for panels */
+.app-layout {
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr 1.5fr; /* Adjusted proportions for a better look */
+    gap: 25px;
+}
+
+/* Panel styling with 3D effect */
+.left-panel, .center-panel {
+    background-color: ;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6), inset 0 -4px 10px rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s;
+}
+
+.left-panel:hover, .center-panel:hover, .right-panel:hover {
+    transform: translateY(-5px); /* 3D hover effect */
+}
+.right-panel{
+    background-color: rgb(20, 20, 62) ;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6), inset 0 -4px 10px rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s;
+}
+
+/* Custom styling for buttons with 3D effect */
+button {
+    padding: 12px 18px;
+    margin-top: 12px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(145deg, #00a4f0, #f76c6c);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background-color: #e95e5e;
+    transform: translateY(-5px);
+}
+
+button:active {
+    transform: translateY(1px); /* Slight press effect */
+}
+
+/* Styling for the barcode input field */
+.InputBarcode {
+    width: 90%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: #39395a;
+    color: #fff;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Custom styling for dropdowns and selectors */
+.select-dropdown {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3d3d5c;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+/* Additional styling for other input elements */
+input, textarea {
+    border: 1px solid #4a4a6a;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #2f2f49;
+    color: #ffffff;
+}
+
+/* Footer panel styling */
+.bottom-panel {
+    background-color: #282840;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    transition: transform 0.3s;
+}
+
+.bottom-panel:hover {
+    transform: translateY(-3px); /* Elevate on hover for a 3D effect */
+}

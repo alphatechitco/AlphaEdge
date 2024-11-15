@@ -1,0 +1,30 @@
+
+
+
+.BillContainer{
+    padding: 20px;
+}
+
+.BillHeading{
+    text-align: center;
+    color: #ffffff;
+}
+
+.Bill{
+    background-color: black;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.delete-button {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #d9363e;
+  }
